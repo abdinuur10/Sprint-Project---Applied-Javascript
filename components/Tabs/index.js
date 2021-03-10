@@ -16,3 +16,36 @@
 //     "jquery",
 //     "node.js"
 // ]
+
+function mytab(myTopics) {
+    const maintab = document.createElement("div")
+    const allUl = document.createElement("ul")
+
+maintab.map(function (item) {
+    let allmenuList = document.createElement("li");
+    allmenuList.textContent = item;
+    allUL.appendChild(allmenuList);
+
+    mytab.classlist.add("tab");
+
+    maintab.appendChild(myTopic);
+
+    return mytab;
+
+  });
+}
+
+let tab = document.querySelector(".tab");
+
+axios
+.get("https://gabitimes.herokuapp.com/topics")
+.then((res) => {
+    console.log(res.data);
+
+    cards.appendChild(mycard(res.data));
+  })
+
+  .catch((error) => {
+    console.log("Unexpected eroor", error);
+  });
+

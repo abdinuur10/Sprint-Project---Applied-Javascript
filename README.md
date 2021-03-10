@@ -29,14 +29,18 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your instructor/GL.
 
 1. What is the DOM?
+    Document Object Model is platform and language independent interface of HTML, and the DOM represent the document as a nodes and objects.
 
 2. What is an event?
+    event is interaction with HTML when the user or the browser manipulates a page and the even load it.
 
 3. What is an event listener?
+    it's a method that attaches an event to specific element without overwriting existing elements.
 
 4. Why would we convert a NodeList into an Array?
-
+    the reason we convert a Nodelist into an Array is thay a nodelist has so many objects collection of DOM element with thier own property when we pass through an array we can have a covienent access with the thing we want to pass through into the function by using its own properties.
 5. What is a component?
+    a componet are independent and resuable of code.
 
 ### Git Set up
 
