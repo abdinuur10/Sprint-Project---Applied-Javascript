@@ -19,4 +19,21 @@ const headerContent = [
     }
 ];
 
+funtion (date, title, content) {
+    const myheader = document.createElement("div")
+    const dateinfor = document.createElement("div")
+    const mainTitle = document.createElement("h1")
+    const temInfor = document.createElement("div")
+}
+
+
+mainTitle.textContent = newDate
+
+myheader.classList.add("header");
+dateinfor.classList.add("date");
+temInfor.classList.add("temp");
+
+
+
+
 
